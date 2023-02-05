@@ -1,32 +1,12 @@
 <template>
-    <section
-      class="welcome-section"
-      data-scroll
-      data-scroll-speed="2"
-      data-scroll-section
-    >
-      <div class="absolute top-[calc(100vh/6)]">
-        <h1>
-          <img src="../assets/img/logo.png" alt="">
-        </h1>
-        <br>
-        <img src="../assets/img/hometext1-1.png" alt="" data-scroll data-scroll-speed="3" data-scroll-direction="horizontal">
-        <br> 
-        <img src="../assets/img/hometext1-2.png" alt="" data-scroll data-scroll-speed="-3" data-scroll-direction="horizontal">
-      </div>
-      <div class="absolute bottom-[calc(100vh/6)]  p-6 nextIcon">
-        <span class="text-[50px] text-amber-500 rotate-90 inline-block">➽</span>
-      </div>
-    </section>
-
-    <!-- <section id="sticky" data-scroll-section>
-      <h1
+    <section id="sticky" data-scroll-section>
+      <h2
         data-scroll
         data-scroll-sticky
         data-scroll-target="#sticky"
       >
-        Sticky scroll example
-      </h1>
+        注意事項
+      </h2>
       <p>Placeholders Placeholders</p>
       <p>Placeholders Placeholders</p>
       <p>Placeholders Placeholders</p>
@@ -51,7 +31,7 @@
         data-scroll-speed="5">
         Here, we're calling the Animate class when the Content scrolls into view
       </h1>
-    </section> -->
+    </section>
 </template>
 
 <script>
