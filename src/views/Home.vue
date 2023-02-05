@@ -1,22 +1,25 @@
 <template>
   <main ref="container" data-scroll-container id="container" >
-    <HelloWorld/>
+    <Welcome/>
     <AdoptNotice />
+    <AnimalVoice />
   </main>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Welcome from '@/components/Welcome.vue'
 import AdoptNotice from '@/components/AdoptNotice.vue';
 import LocomotiveScroll from 'locomotive-scroll';
+import AnimalVoice from '@/components/AnimalVoice.vue';
 import { onMounted, ref } from 'vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld,
-    AdoptNotice
+    Welcome,
+    AdoptNotice,
+    AnimalVoice
   },
   setup(){
     const container = ref(null)
@@ -33,7 +36,8 @@ export default {
         },
         smartphone:{
           smooth:false
-        }
+        },
+        
       });
     })
     return {
