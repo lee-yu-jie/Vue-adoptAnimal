@@ -4,13 +4,13 @@
         data-scroll
         data-scroll-sticky
         data-scroll-target="#sticky"
-        class="text-[#F68E54] font-extrabold text-4xl leading-[60px]" 
+        class="text-white font-extrabold text-4xl py-6 leading-[60px] rounded-full bg-red-500" 
       >
         領養前
         <br>
         該注意什麼
       </h2>
-      <section class="notice-card">
+      <section class="notice-card aaaa">
         <h3 class="text-2xl text-[#A1896D] font-bold mb-3">事前準備</h3>
         <ul >
           <li v-for="item, index in preparation" :key="index" ><span class="text-green-700">{{item.title}}</span>：{{ item.content}}</li>
@@ -55,7 +55,6 @@ export default {
           "需要定期實施預防注射。",
           "需要同意接受後續追蹤和家庭訪問探親。"
         ]
-
     return {
       preparation,
       condition

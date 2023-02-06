@@ -1,48 +1,38 @@
 <template>
   <section class="flex items-center justify-center h-screen grid-cols-3 gap-10 text-4xl parallax" data-scroll-section>
-    <div>
-      <h1 class="text-black" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-9">
-        Horizontal Parallax Scroll
-      </h1>
-      <h1 class="text-black" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8">
-        Horizontal Parallax Scroll
-      </h1>
-      <h1 class="text-black" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-7">
-        Horizontal Parallax Scroll
-      </h1>
-      <h1 class="text-black" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-6">
-        Horizontal Parallax Scroll
-      </h1>
-    </div>
+    <div >
+      <div class="parallax-item parallax-1 w-[calc(100vw+1000px)]">
+        <p  data-scroll data-scroll-direction="horizontal" data-scroll-speed="-9">
+          我很乖，我不會咬人。
+        </p>
+      </div>
+      <div class="parallax-item parallax-2">
+        <p  data-scroll data-scroll-direction="horizontal" data-scroll-speed="6">
+          Please hug me. Touch me.
+        </p>
+      </div>
+      <div class="parallax-item parallax-3">
+        <p  data-scroll data-scroll-direction="horizontal" data-scroll-speed="-7">
+          我依然對家懷抱著希望。
+        </p>
+      </div>
+      <div class="parallax-item parallax-4">
+        <p  data-scroll data-scroll-direction="horizontal" data-scroll-speed="-6">
+          I will always love you.
+        </p>
+      </div>
+      <div class="parallax-item parallax-5">
+        <p  data-scroll data-scroll-direction="horizontal" data-scroll-speed="3">
+          為什麼要拋棄我。
+        </p>
+      </div>
 
-    <h1 class="text-black" data-scroll data-scroll-direction="vertical" data-scroll-speed="9" >
-      Vertical Parallax scroll
-    </h1>
-    <div>
-      <h1 class="text-black" data-scroll data-scroll-direction="horizontal" data-scroll-speed="6">
-        Horizontal Parallax Scroll
-      </h1>
-      <h1 class="text-black" data-scroll data-scroll-direction="horizontal" data-scroll-speed="7">
-        Horizontal Parallax Scroll
-      </h1>
-      <h1 class="text-black" data-scroll data-scroll-direction="horizontal" data-scroll-speed="8">
-        Horizontal Parallax Scroll
-      </h1>
-      <h1 class="text-black" data-scroll data-scroll-direction="horizontal" data-scroll-speed="9">
-        Horizontal Parallax Scroll
-      </h1>
+      <div class="parallax-item parallax-6">
+        <p  data-scroll data-scroll-direction="horizontal" data-scroll-speed="8">
+          我只想要主人摸摸我。
+        </p>
+      </div>
     </div>
-  </section>
-
-  <section class="grid items-center justify-center h-screen grid-cols-3 gap-10 text-4xl scroll-into-view" data-scroll-section>
-    <h1
-      className="hint-text"
-      data-scroll
-      data-scroll-repeat="true"
-      data-scroll-class="animate"
-      data-scroll-speed="5">
-      Here, we're calling the Animate class when the Content scrolls into view
-    </h1>
   </section>
 </template>
 
@@ -67,11 +57,35 @@ setup(){
   align-items: center;
   background-image: linear-gradient(#D4C9C9, rgb(238, 238, 112));
 }
-#sticky {
-  background-image: linear-gradient(to top, #D4C9C9 40%, transparent 70%);
+.parallax-item {
+  p{
+  background: white;
+  font-size: 100px;
+  font-weight: 900;
+  padding: 30px;
+  color: rgb(82, 82, 82);
+  // width: calc(100vh+500px);
+  }
 }
-.scroll-into-view {
-  background-color: black;
-  color: rgba(255, 255, 255, 0.497);
+.parallax-1{
+  transform: translateX(-10vw) rotate(18deg)
+}
+.parallax-2{
+  transform: translateX(10vw) rotate(-26deg)
+}
+.parallax-3{
+  transform: translateX(-10vw) rotate(5deg)
+}
+.parallax-4{
+  transform: translateX(-10vw) rotate(26deg)
+}
+.parallax-5{
+  transform: translateX(10vw) rotate(-22deg)
+}
+.parallax-6{
+  transform: translateX(-10vw) rotate(26deg)
+}
+.parallax-7{
+  transform: translateX(10vw) rotate(-15deg)
 }
 </style>
