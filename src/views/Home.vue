@@ -46,7 +46,7 @@ export default {
           smooth:false
         },
       });
-      if(window.innerWidth > 1000 && window.innerWidth - window.innerHeight < 0){
+      if(window.innerWidth < 1000 && window.innerWidth - window.innerHeight < 0){
         isHorizontal.value = false
       }
     })

@@ -7,12 +7,12 @@
     >
       <div class="absolute top-[calc(100vh/6)]">
         <h1>
-          <img src="../assets/img/logo.png" alt="">
+          <img src="../../public/img/logo.png" alt="">
         </h1>
         <br>
-        <img src="../assets/img/hometext1-1.png" alt="" data-scroll data-scroll-speed="3" data-scroll-direction="horizontal">
+        <img src="../../public/img/hometext1-1.png" alt="" data-scroll data-scroll-speed="3" data-scroll-direction="horizontal">
         <br> 
-        <img src="../assets/img/hometext1-2.png" alt="" data-scroll data-scroll-speed="-3" data-scroll-direction="horizontal">
+        <img src="../../public/img/hometext1-2.png" alt="" data-scroll data-scroll-speed="-3" data-scroll-direction="horizontal">
       </div>
       <div class="absolute bottom-[calc(100vh/6)]  py-3 px-6 nextIcon">
         <span class="text-[50px] text-amber-500 rotate-90 inline-block">➽</span>
@@ -43,7 +43,7 @@ section {
 }
 .welcome-section {
  background-color: red;
- background-image: url("../assets/img/homebg1.jpeg");
+ background-image: url("../../public/img/homebg1.jpeg");
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
