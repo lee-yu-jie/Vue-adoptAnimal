@@ -9,7 +9,7 @@
         data-scroll-repeat="true"
         data-scroll-class="animate"
         data-scroll-speed="5">
-        <el-button type="info">點此進入領養頁面</el-button>
+        <el-button type="info" @click="changePage">點此進入領養頁面</el-button>
       </h2>
     </div>
 
@@ -18,13 +18,16 @@
 
 <script>
 import { onMounted, ref } from 'vue'
-
+import { useRouter, useRoute } from 'vue-router'
 export default {
 name: 'animalVoice',
 setup(){
-
+  const router = useRouter()
+  const changePage = () => {
+    router.push({name: 'animalinfo'})
+  }
   return {
-
+    changePage
   }
 },
 }
