@@ -7,7 +7,7 @@
       <br>
       為了最佳體驗
       <br>
-      建議使用桌墊或筆電觀賞
+      建議使用桌電或筆電觀賞
     </h1>
   </section>
 </template>
@@ -28,6 +28,7 @@ setup(){
 <style scoped>
 section{
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
 }
 h1{
   position: absolute;
