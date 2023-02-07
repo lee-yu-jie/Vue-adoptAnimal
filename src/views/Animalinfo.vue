@@ -1,5 +1,23 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="bg-[#759675] min-h-screen">
+    <AnimalSwiper />
+    <router-view />
   </div>
 </template>
+
+<script>
+import AnimalSwiper from '@/components/AnimalSwiper.vue';
+
+export default {
+  components: {
+    AnimalSwiper
+  },
+  setup(){
+    return{
+    }
+  }
+}
+
+</script>
+
+<style></style>
