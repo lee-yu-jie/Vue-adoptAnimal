@@ -1,0 +1,71 @@
+[ 
+  {
+    "id": 11,
+    "name": "密雪",
+    "cover": "img/animal01.jpeg",
+    "personality": "沈穩、氣質、距離感重",
+    "age": "5歲"
+  },
+  {
+    "id": 21,
+    "name": "風風",
+    "cover": "img/animal10.png",
+    "personality": "活潑、活動力大、調皮",
+    "age": "5個月"
+  },
+  {
+    "id": 17,
+    "name": "雞腿",
+    "cover": "img/animal02.jpeg",
+    "personality": "善解人意、沈穩、易親近",
+    "age": "3歲半"
+  },
+  {
+    "id": 45,
+    "name": "飄飄",
+    "cover": "img/animal03.jpg",
+    "personality": "沈穩、內斂、怕生、愛撒嬌",
+    "age": "4年個月"
+  },
+  {
+    "id": 39,
+    "name": "小咪",
+    "cover": "img/animal04.jpg",
+    "personality": "調皮、粘人、易怒易樂",
+    "age": "4歲"
+  },
+  {
+    "id": 25,
+    "name": "憨憨",
+    "cover": "img/animal05.jpg",
+    "personality": "傻憨、調皮、活潑、橫衝直撞",
+    "age": "3歲"
+  },
+  {
+    "id": 77,
+    "name": "老大",
+    "cover": "img/animal06.jpg",
+    "personality": "氣勢大、沈穩、悶騷",
+    "age": "8歲8個月"
+  },
+  {
+    "id": 70,
+    "name": "東東",
+    "cover": "img/animal07.jpg",
+    "personality": "小孩子氣、調皮、敏感",
+    "age": "1歲"
+  },
+  {
+    "id": 93,
+    "name": "恐龍",
+    "cover": "img/animal08.jpg",
+    "personality": "愛動、活潑、橫衝直撞、粘人",
+    "age": "11個月"
+  },  {
+    "id": 84,
+    "name": "魯夫",
+    "cover": "img/animal09.jpeg",
+    "personality": "瘋瘋的、膽大、愛動",
+    "age": "2歲"
+  }
+]
