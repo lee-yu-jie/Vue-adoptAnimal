@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Animalinfo from '../views/Animalinfo.vue'
-import AnimalData from '../views/AnimalData.vue'
 
 const routes = [
   {
@@ -13,13 +12,6 @@ const routes = [
     path: '/animalinfo',
     name: 'animalinfo',
     component: Animalinfo,
-    children: [
-      {
-        path: ':id',
-        name: 'animalData',
-        component: AnimalData
-      }
-    ]
   }
 ]
 
