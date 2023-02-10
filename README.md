@@ -1,4 +1,4 @@
-# adoptanimal2
+# adoptanimal
 
 ## Project setup
 ```
